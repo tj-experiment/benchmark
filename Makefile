@@ -17,6 +17,6 @@ clean:
 		cd $(ROOT_DIR); \
 	done
 
-chart:
-	pip install plotly
-	python3 chart.py
+chart: run
+	@pip install plotly dash
+	@python3 app.py
