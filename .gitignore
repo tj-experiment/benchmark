@@ -1,6 +1,7 @@
 *
 !/**/
 !*.*
+!Makefile
 .idea/
 output.txt
 build/

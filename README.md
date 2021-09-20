@@ -1,6 +1,6 @@
 # speed_test
 
-Iterated over `10_000_000` numbers.
+Iterated over `10_000_000` items.
 
 
 Fastest: 

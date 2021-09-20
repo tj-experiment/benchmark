@@ -5,21 +5,16 @@ languages = [
     'c', 'cpp', 'cython', 'elixir', 'golang', 'node', 'python', 'ruby', 'rust',
 ]
 
-values = {
-    language: [
-        float(i.strip("/\n"))
-        for i in open(f"./{language}/output.txt", "r").readlines()
-    ]
-    for language in languages
-}
-
 fig = go.Figure()
 
 
 for language in languages:
     fig.add_trace(
         go.Bar(
-            y=values[language],
+            y=[
+                float(i.strip("/\n"))
+                for i in open(f"./{language}/output.txt", "r").readlines()
+            ],
             name=language,
         ),
     )
