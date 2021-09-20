@@ -1,6 +1,6 @@
 # speed_test
 
-Iterated over `10_000_000` items.
+Iterate over `10_000_000` items and recorded execution time for each language.
 
 
 Fastest: 
