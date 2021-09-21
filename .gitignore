@@ -8,3 +8,4 @@ build/
 *.html
 *\$.class
 *.class
+*.so
