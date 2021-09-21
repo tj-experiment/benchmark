@@ -1,5 +1,3 @@
-
-
 defmodule Main do
   def main do
     Enum.each(1..10000000, fn number -> number end)
