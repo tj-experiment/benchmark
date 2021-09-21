@@ -23,6 +23,7 @@ for language in languages:
         go.Bar(
             y=values,
             name=language,
+            text=language,
         ),
     )
 
