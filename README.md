@@ -11,10 +11,10 @@ Fastest:
 
 Average: 
 - `Go`: `3`
-- `Node`: `22.435445`
-- `C++`: `23`
 - `PyPy2`: `11.7371082306`
 - `PyPy3`: `12.248411017935723`
+- `Node`: `22.435445`
+- `C++`: `23`
 
 ![Screen Shot 2021-09-21 at 10 09 50 AM](https://user-images.githubusercontent.com/17484350/134186724-2956e2df-ec3f-464e-a149-0920bcd5986d.png)
 
