@@ -6,9 +6,10 @@ Iterate over `10_000_000` items and recorded execution time for each language.
 Fastest: 
 - `Cython`: `0.0012919999999999598`
 - `C`: `0.023278`
-- `Go`: `3`
+
 
 Average: 
+- `Go`: `3`
 - `Node`: `22.435445`
 - `C++`: `23`
 - `PyPy2`: `11.7371082306`
