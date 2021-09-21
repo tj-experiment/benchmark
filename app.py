@@ -30,9 +30,9 @@ for language in languages:
 # Change the bar mode
 fig.update_layout(
     title='10_000_000 iterations',
-    xaxis_title="Language",
+    xaxis_title="runs",
     yaxis_title="time in milliseconds",
-    legend_title="runs",
+    legend_title="Language",
     barmode='group',
     uniformtext_minsize=8,
     uniformtext_mode='hide'

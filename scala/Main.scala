@@ -4,7 +4,7 @@ object Main
 {
   def main(args: Array[String]): Unit = {
     val start = System.nanoTime()
-    for( i <- 0 to 10) {
+    for( i <- 0 to 10000000) {
     }
     val end = System.nanoTime()
     val elapsed = (end - start)  / 1_000_000
