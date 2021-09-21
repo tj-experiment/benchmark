@@ -1,14 +1,15 @@
 import time
 
+
 def main():
-    start = time.monotonic()
-    for i in range(10_000_000):
+    start = time.time()
+    for i in range(10000000):
         continue
 
-    end = time.monotonic()
+    end = time.time()
     elapsed = (end - start) * 1000
 
-    print(f"Took: {elapsed} milliseconds")
+    print("Took: {} milliseconds".format(elapsed))
 
     with open('output.txt', 'a+') as f:
         f.write("%s\n" % elapsed)

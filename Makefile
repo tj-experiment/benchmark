@@ -1,7 +1,7 @@
 ROOT_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 run:
-	@for path in c cpp cython elixir golang python ruby rust node; do \
+	@for path in c cpp cython elixir golang node pypy3 pypy2 python ruby rust; do \
 		echo "Running '$$path'"; \
 		cd $$path; \
 		make run; \
@@ -10,7 +10,7 @@ run:
 	done
 
 clean:
-	@for path in c cpp cython elixir golang python ruby rust node; do \
+	@for path in c cpp cython elixir golang node pypy3 pypy2 python ruby rust; do \
 		echo "Cleaning '$$path'"; \
 		cd $$path; \
 		rm -f output.txt; \

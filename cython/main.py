@@ -2,10 +2,10 @@ import time
 
 import loop
 
-start = time.monotonic_ns()
+start = time.monotonic()
 loop.loop()
-end = time.monotonic_ns()
-elapsed = end - start//1000000
+end = time.monotonic()
+elapsed = (end - start) * 1000
 
 print(f"Took: {elapsed} milliseconds")
 

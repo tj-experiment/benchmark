@@ -7,7 +7,8 @@ import plotly.graph_objects as go
 app = dash.Dash(__name__)
 
 languages = [
-    'c', 'cpp', 'cython', 'elixir', 'golang', 'node', 'python', 'ruby', 'rust',
+    'c', 'cpp', 'cython', 'elixir', 'golang', 'node', 'pypy3', 'pypy2',
+    'python', 'ruby', 'rust',
 ]
 
 fig = go.Figure()

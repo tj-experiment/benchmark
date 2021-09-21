@@ -4,7 +4,7 @@ def main()
        next
     end
     ending = Process.clock_gettime(Process::CLOCK_MONOTONIC)
-    elapsed = (ending - starting) * 1000.0
+    elapsed = (ending - starting) * 1000
     puts "Took %d milliseconds" % [elapsed]
 
     open('output.txt', 'a') do |f|

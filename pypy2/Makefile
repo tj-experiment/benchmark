@@ -1,0 +1,2 @@
+run:
+	@pypy main.py
