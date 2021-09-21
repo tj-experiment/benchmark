@@ -9,8 +9,9 @@ Fastest:
 
 ![Screen Shot 2021-09-21 at 10 06 03 AM](https://user-images.githubusercontent.com/17484350/134186722-7f469101-e1dd-4536-a7a5-a0e7ab964eea.png)
 
-Average: 
-- `Go`: `3`
+Average:
+- `Scala`: `1`
+- `GoLang`: `3`
 - `PyPy2`: `11.7371082306`
 - `PyPy3`: `12.248411017935723`
 - `Node`: `22.435445`
