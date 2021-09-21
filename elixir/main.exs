@@ -1,9 +1,8 @@
 
 
 defmodule Main do
-  @size 10000000
   def main do
-    Enum.each(1..@size, fn number -> number end)
+    Enum.each(1..10000000, fn number -> number end)
   end
 end
 
