@@ -5,7 +5,8 @@ Fastest:
 - `Cython`: `0.0021949999999965053` milliseconds
 - `C`: `0.026882` milliseconds
 
-![Screen Shot 2021-09-21 at 10 06 03 AM](https://user-images.githubusercontent.com/17484350/134186722-7f469101-e1dd-4536-a7a5-a0e7ab964eea.png)
+![Screen Shot 2021-09-21 at 4 22 19 PM](https://user-images.githubusercontent.com/17484350/134242554-4e0dea74-b3cf-4ac9-8b99-b3eb6a056d30.png)
+
 
 Average:
 - `GoLang`: `4` milliseconds
@@ -15,7 +16,8 @@ Average:
 - `C++`: `23` milliseconds
 - `Scala`: `68` milliseconds
 
-![Screen Shot 2021-09-21 at 10 09 50 AM](https://user-images.githubusercontent.com/17484350/134186724-2956e2df-ec3f-464e-a149-0920bcd5986d.png)
+![Screen Shot 2021-09-21 at 4 22 52 PM](https://user-images.githubusercontent.com/17484350/134242553-8d03af90-1678-41fb-89af-b8ceacc3c3ca.png)
+
 
 Slowest:
 - `Elixir`: `320.48` milliseconds
@@ -23,4 +25,4 @@ Slowest:
 - `Python`: `488.528394` milliseconds
 - `Ruby`: `795.4700002446771` milliseconds
 
-![Screen Shot 2021-09-21 at 10 11 08 AM](https://user-images.githubusercontent.com/17484350/134186726-5e385e25-8c7d-48a2-8e64-56203ba85c76.png)
+![Screen Shot 2021-09-21 at 4 25 44 PM](https://user-images.githubusercontent.com/17484350/134242551-41528633-76cd-4713-84f0-d2b86bbeacd3.png)
