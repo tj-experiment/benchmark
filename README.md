@@ -1,5 +1,5 @@
 # speed_test
-Iterate over `10_000_000` items and recorded execution time for each language.
+Iterate over `10_000_000` records and recorded execution time for each language.
 
 Fastest: 
 - `Cython`: `0.0021949999999965053` milliseconds
