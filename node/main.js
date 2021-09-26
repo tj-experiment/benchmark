@@ -7,7 +7,7 @@ function main() {
     }
     const end = hrtime.bigint();
     const number = Number(end - start);
-	const elapsed = number / 1000000;
+    const elapsed = number / 1000000;
     console.log(`Took: ${elapsed} milliseconds.`);
 
     fs.appendFileSync('output.txt', `${elapsed}\n`);
