@@ -3,3 +3,6 @@ build:
 
 run: build
 	@scala Main
+
+clean:
+	@rm -f output.txt

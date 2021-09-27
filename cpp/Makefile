@@ -3,3 +3,6 @@ build: main.cpp
 
 run: build
 	@./main
+
+clean:
+	@rm -f output.txt

@@ -3,3 +3,6 @@ build:
 
 run: build
 	@./main
+
+clean:
+	@rm -f output.txt
