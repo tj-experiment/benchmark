@@ -1,20 +1,14 @@
-ROOT_DIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
-
 run:
 	@for path in c cpp cython elixir golang node pypy3 pypy2 python ruby rust scala; do \
-		echo "Running '$$path'"; \
-		cd $$path; \
-		make run; \
+		echo "Running '$$path'"; \=
+		make -C $$path run; \
 		echo "========================"; \
-		cd $(ROOT_DIR); \
 	done
 
 clean:
 	@for path in c cpp cython elixir golang node pypy3 pypy2 python ruby rust scala; do \
 		echo "Cleaning '$$path'"; \
-		cd $$path; \
-		rm -f output.txt; \
-		cd $(ROOT_DIR); \
+		make -C $$path clean; \
 	done
 
 chart: run
