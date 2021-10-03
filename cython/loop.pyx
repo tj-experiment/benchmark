@@ -3,5 +3,5 @@
 import time
 
 cpdef loop():
-    for i in range(10_000_000):
+    for _ in range(10_000_000):
         continue
