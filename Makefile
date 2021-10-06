@@ -1,14 +1,14 @@
 run:
 	@for path in c cpp cython elixir golang node pypy3 pypy2 python ruby rust scala; do \
-		echo "Running '$$path'"; \=
-		make -C $$path run; \
+		echo "Running '$$path'"; \
+		$(MAKE) -C $$path run; \
 		echo "========================"; \
 	done
 
 clean:
 	@for path in c cpp cython elixir golang node pypy3 pypy2 python ruby rust scala; do \
 		echo "Cleaning '$$path'"; \
-		make -C $$path clean; \
+		$(MAKE) -C $$path clean; \
 	done
 
 chart: run

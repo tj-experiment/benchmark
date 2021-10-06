@@ -1087,13 +1087,13 @@ static PyObject *__pyx_pf_4loop_loop(CYTHON_UNUSED PyObject *__pyx_self); /* pro
  * import time
  * 
  * cpdef loop():             # <<<<<<<<<<<<<<
- *     for i in range(10_000_000):
+ *     for _ in range(10_000_000):
  *         continue
  */
 
 static PyObject *__pyx_pw_4loop_1loop(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
 static PyObject *__pyx_f_4loop_loop(CYTHON_UNUSED int __pyx_skip_dispatch) {
-  CYTHON_UNUSED long __pyx_v_i;
+  CYTHON_UNUSED long __pyx_v__;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   long __pyx_t_1;
@@ -1102,15 +1102,15 @@ static PyObject *__pyx_f_4loop_loop(CYTHON_UNUSED int __pyx_skip_dispatch) {
   /* "loop.pyx":6
  * 
  * cpdef loop():
- *     for i in range(10_000_000):             # <<<<<<<<<<<<<<
+ *     for _ in range(10_000_000):             # <<<<<<<<<<<<<<
  *         continue
  */
   for (__pyx_t_1 = 0; __pyx_t_1 < 0x989680; __pyx_t_1+=1) {
-    __pyx_v_i = __pyx_t_1;
+    __pyx_v__ = __pyx_t_1;
 
     /* "loop.pyx":7
  * cpdef loop():
- *     for i in range(10_000_000):
+ *     for _ in range(10_000_000):
  *         continue             # <<<<<<<<<<<<<<
  */
     goto __pyx_L3_continue;
@@ -1121,7 +1121,7 @@ static PyObject *__pyx_f_4loop_loop(CYTHON_UNUSED int __pyx_skip_dispatch) {
  * import time
  * 
  * cpdef loop():             # <<<<<<<<<<<<<<
- *     for i in range(10_000_000):
+ *     for _ in range(10_000_000):
  *         continue
  */
 
