@@ -26,3 +26,7 @@ Slowest:
 - `Ruby`: `795.4700002446771` milliseconds
 
 ![Screen Shot 2021-09-21 at 4 25 44 PM](https://user-images.githubusercontent.com/17484350/134242551-41528633-76cd-4713-84f0-d2b86bbeacd3.png)
+
+
+![Screen Shot 2021-10-16 at 6 41 27 PM](https://user-images.githubusercontent.com/17484350/137603815-a1e59261-3cee-4136-ad2b-cc7b0d90d417.png)
+
