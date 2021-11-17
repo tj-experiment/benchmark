@@ -1,4 +1,4 @@
-# speed_test
+# benchmark
 Iterate over `10_000_000` records and recorded execution time for each language.
 
 Fastest: 
